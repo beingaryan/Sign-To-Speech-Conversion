@@ -6,7 +6,8 @@ A total of 17113 images have been included in the field of study. There are arou
 
 ![](Analysis/train_data_distribution.png)
 The figure shows here the train data distribution.
-![](Analysis/test_data_distribution.png)
+
+![](Analysis/test_data_Distribution.png)
 The figure shows here the train data distribution.
 The dataset used in this field of study can be downloaded from:
 https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing
