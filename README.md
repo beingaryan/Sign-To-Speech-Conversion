@@ -44,14 +44,15 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 * It can be interpreted that the loss decreases with increasing epochs.
 <br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br />
 * The above figure shows the Accuracy plot of the model throughout it's training journey. 
-* It can be interpreted that the accuracy incraeses with increasing epochs for both test and val sets.
-<br /><br /><br />* The training phase data has been evaluated on the Heatmap Plotting representation. 
+* It can be interpreted that the accuracy incraeses with increasing epochs for both train and val sets.
+<br /><br /><br />
+* The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 * The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
 
 * The model has been evaluated for Precision, Recall, F1-score metrics for all the 26 classes along with a null class. 
-![](Analysis/Classification_report.png)<br />
+<br /><br />![](Analysis/Classification_report.png)<br />
 * The analysis carried has been shown in the classification report attached above. 
 * It can be interpreted that the average weighted F1-score metrics is 1 which describes effective learning and low false predictions.
 
