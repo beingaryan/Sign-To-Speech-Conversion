@@ -2,7 +2,10 @@
 Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the research gap and to contribute to recognize American sign languages(ASL) with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of 26 alphabets and one extra alphabet for null character. The proposed work has achieved an efficiency of 99.88% on the test set.
 
 ## Data Distribution
-A total of 17113 images have been included in the field of study. There are around 600 images per alphabet. A total of 12845 images were considered for the training set. Out of these, 0.3% of the images were used for validation. A total of 4368 images were used in the testing phase to evaluate the accuracy of the model.
+A total of 17113 images have been included in the field of study. 
+* There are around 600 images per alphabet. 
+* A total of 12845 images were considered for the training set. Out of these, 0.3% of the images were used for validation. 
+* A total of 4368 images were used in the testing phase to evaluate the accuracy of the model.
 <br />
 <br />
 
@@ -38,9 +41,9 @@ The model has been trained on a python based environment on Jupyter platform for
 The above figure shows the Loss plot of the model throughout it's training journey. It can be interpreted that the loss decreases with increasing epochs.
 <br />![](Analysis/Accuracy%20vs%20Epoch.png)<br />
 The above figure shows the Accuracy plot of the model throughout it's training journey. It can be interpreted that the accuracy incraeses with increasing epochs for both test and val sets.
-<br />The training phase data has been evaluated on the Heatmap Plotting representation. 
+<br /><br />The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
-The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
+* The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
 
 The model has been evaluated for Precision, Recall, F1-score metrics for all the 26 classes along with a null class. 
@@ -50,11 +53,11 @@ The model has been evaluated for Precision, Recall, F1-score metrics for all the
 
 ## Output Snapshots
 ![](Analysis/WOW.jpg)<br />
-<br />The above figure shows correctly classified word: "WOW". 
+The above figure shows correctly classified word: "WOW". 
 ![](Analysis/I%20SEE%20IT.png)<br />
-<br />The above figure shows correctly classified word: "I SEE IT" 
+The above figure shows correctly classified word: "I SEE IT" 
 ![](Analysis/HI%20HOW%20ARE%20YOU.jpg)<br />
-<br />The above figure shows correctly classified word: "HI HOW ARE YOU" 
+The above figure shows correctly classified word: "HI HOW ARE YOU" 
 <br />
 ## References
 The above work is inspired by several recent researches in the field of Deep Learning. Some notable shoutout goes to:<br />
