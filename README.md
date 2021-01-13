@@ -50,9 +50,16 @@ The model has been evaluated for Precision, Recall, F1-score metrics for all the
 
 ## Output Snapshots
 ![](Analysis/WOW.jpg)<br />
+<br />The above figure shows correctly classified word: "WOW". 
 ![](Analysis/I%20SEE%20IT.png)<br />
+<br />The above figure shows correctly classified word: "I SEE IT" 
 ![](Analysis/HI%20HOW%20ARE%20YOU.jpg)<br />
-
-
+<br />The above figure shows correctly classified word: "HI HOW ARE YOU" 
+<br />
+## References
+The above work is inspired by several recent researches in the field of Deep Learning. Some notable shoutout goes to:<br />
+* K. Manikandan, Ayush Patidar, Pallav Walia, Aneek Barman Roy.(2017). Hand Gesture Detection and Conversion to Speech and Text. ARXIV
+* Omkar Vedak, Prasad Zavre, Abhijeet Todkar, Manoj Patil.(2019). INTERNATIONAL RESEARCH JOURNAL OF ENGINEERING AND TECHNOLOGY (IRJET).Sign Language Interpreter using Image Processing and Machine Learning
+* Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
 
 
