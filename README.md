@@ -5,6 +5,9 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 A total of 17113 images have been included in the field of study. There are around 600 images per alphabet. A total of 12845 images were considered for the training set. Out of these, 0.3% of the images were used for validation. A total of 4368 images were used in the testing phase to evaluate the accuracy of the model.
 
 ![](Analysis/train_data_distribution.png)
+The figure shows here the train data distribution.
+![](Analysis/test_data_distribution.png)
+The figure shows here the train data distribution.
 The dataset used in this field of study can be downloaded from:
 https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing
 
