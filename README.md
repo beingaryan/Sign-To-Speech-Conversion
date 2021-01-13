@@ -57,7 +57,7 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 
 ## Output Snapshots
 ![](Analysis/WOW.jpg)<br />
-The above figure shows correctly classified word: "WOW" 
+The above figure shows correctly classified word: "WOW"<br /> 
 ![](Analysis/I%20SEE%20IT.png)<br />
 The above figure shows correctly classified word: "I SEE IT" 
 ![](Analysis/HI%20HOW%20ARE%20YOU.jpg)<br />
