@@ -29,9 +29,9 @@ The images from the dataset were pre-processed by eliminating the background noi
 * Intensity gradients of the image are calculated.
 * Non-maximum suppression is applied to remove the possibility of a false response. 
 * Double thresholding is done to detect or determine the possible edges. 
-* Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.
+* Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.<br />
 ![](Analysis/fe.png)<br />
-The above figure shows a figure with it's extracted features which is sent to the model.
+The above figure shows pre-processed image with extracted features which is sent to the model for classification.
 ## Proposed Flow
 
 ![](Analysis/Proposed%20Flow.png)<br />
@@ -41,10 +41,10 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 * Fork the repository at your profile
 * Git Clone the repository to your local machine. 
 * pip install - r requirements.txt
-* Download the dataset from [LINK](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
-* Load the Dataset and Training file. Run [Train_File](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
-* Predict Real-Time Sentences using [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) 
-* NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) trained by me for real-time predictions.
+* Download the dataset from the mentioned [LINK](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing).
+* Load the Dataset and the Training file from [Train_File](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb).
+* Predict Real-Time Sentences using [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+* NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 ## Results and Analysis
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
@@ -80,5 +80,14 @@ The above work is inspired by several recent researches in the field of Deep Lea
 * K. Manikandan, Ayush Patidar, Pallav Walia, Aneek Barman Roy.(2017). Hand Gesture Detection and Conversion to Speech and Text. ARXIV
 * Omkar Vedak, Prasad Zavre, Abhijeet Todkar, Manoj Patil.(2019). INTERNATIONAL RESEARCH JOURNAL OF ENGINEERING AND TECHNOLOGY (IRJET).Sign Language Interpreter using Image Processing and Machine Learning
 * Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
+
+## Doubt Support
+For further queries, you can reach out to me via:
+* [LinkedIN](https://www.linkedin.com/in/aryan-gupta-6a9201191/) handle
+* [Instagram](https://www.instagram.com/beingryaan/)
+* Email-Id: aryan.gupta18@vit.edu
+
+
+
 
 
