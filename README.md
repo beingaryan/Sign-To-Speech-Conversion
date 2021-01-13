@@ -83,9 +83,13 @@ The above work is inspired by several recent researches in the field of Deep Lea
 
 ## Doubt Support
 For further queries, you can reach out to me via:
-* [LinkedIN](https://www.linkedin.com/in/aryan-gupta-6a9201191/) handle
+* [Linkedin](https://www.linkedin.com/in/aryan-gupta-6a9201191/) handle
 * [Instagram](https://www.instagram.com/beingryaan/)
 * Email-Id: aryan.gupta18@vit.edu
+
+## Contribution Norms
+* Feel free to come up with updates and modifications in the project.
+* Pull requests are welcomed.
 
 
 
