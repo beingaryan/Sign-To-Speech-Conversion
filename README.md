@@ -30,11 +30,22 @@ The images from the dataset were pre-processed by eliminating the background noi
 * Non-maximum suppression is applied to remove the possibility of a false response. 
 * Double thresholding is done to detect or determine the possible edges. 
 * Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.
-
+![](Analysis/fe.png)<br />
+The above figure shows a figure with it's extracted features which is sent to the model.
 ## Proposed Flow
 
 ![](Analysis/Proposed%20Flow.png)<br />
 The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
+
+## SETUP
+* Fork the repository at your profile
+* Git Clone the repository to your local machine. 
+* pip install - r requirements.txt
+* Download the dataset from [LINK](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
+* Load the Dataset and Training file. Run [Train_File](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
+* Predict Real-Time Sentences using [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) 
+* NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) trained by me for real-time predictions.
+
 ## Results and Analysis
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
 * The model has achieved an accuracy of 97.45 % on Training Set with 99.88 % accuracy on the Validation set.
