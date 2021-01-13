@@ -42,10 +42,10 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
 * The above figure shows the Loss plot of the model throughout it's training journey. 
 * It can be interpreted that the loss decreases with increasing epochs.
-<br />![](Analysis/Accuracy%20vs%20Epoch.png)<br />
+<br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br />
 * The above figure shows the Accuracy plot of the model throughout it's training journey. 
 * It can be interpreted that the accuracy incraeses with increasing epochs for both test and val sets.
-<br /><br />The training phase data has been evaluated on the Heatmap Plotting representation. 
+<br /><br /><br />* The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 * The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
