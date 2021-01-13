@@ -3,13 +3,15 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 
 ## Data Distribution
 A total of 17113 images have been included in the field of study. There are around 600 images per alphabet. A total of 12845 images were considered for the training set. Out of these, 0.3% of the images were used for validation. A total of 4368 images were used in the testing phase to evaluate the accuracy of the model.
-
+<br />
+<br />
 
 ![](Analysis/train_data_distribution.png)<br />
-The figure shows here the train data distribution.<br />
+The figure above shows the training data distribution.<br />
 ![](Analysis/test_data_Distribution.png)<br />
-The figure shows here the train data distribution.<br />
-The dataset used in this field of study can be downloaded from:
+The figure above shows the testing data distribution.<br />
+
+The dataset used in this field of study can be downloaded from:<br />
 https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing
 
 ## Data-Preprocessing
@@ -28,16 +30,24 @@ The images from the dataset were pre-processed by eliminating the background noi
 
 ## Proposed Flow
 
+![](Analysis/Proposed%20Flow.png)<br />
+The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
 ## Results and Analysis
 The model has been trained on a python based environment on Jupyter platform for 20 epochs. The model has achieved an accuracy of 97.45 % on Training Set with 99.88 % accuracy on the Validation set. The prescribed model has also been evaluated on a Test set where it has yielded an accuracy of 99.85% with loss of 0.60 %.
+![](Analysis/Loss%20vs%20Epoch.png)<br />
+The above figure shows the Loss plot of the model throughout it's training journey. It can be interpreted that the loss decreases with increasing epochs.
+![](Analysis/Accuracy%20vs%20Epoch.png)<br />
+The above figure shows the Accuracy plot of the model throughout it's training journey. It can be interpreted that the accuracy incraeses with increasing epochs for both test and val sets.<br />
+The training phase data has been evaluated on the Heatmap Plotting representation. 
+![](Analysis/Heatmp.png)<br />
+The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
 
-The training phase data has been evaluated on the Heatmap Plotting representation. The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
+The model has been evaluated for Precision, Recall, F1-score metrics for all the 26 classes along with a null class. 
+![](Analysis/Classification_report.png)<br />
+The analysis carried has been shown in the classification report attached above. 
 
 
-The model has been evaluated for Precision, Recall, F1-score metrics for all the 26 classes along with a null class. The analysis carried has been shown in the classification report attached below. 
-
-## Results
 
 
 
