@@ -30,7 +30,7 @@ The images from the dataset were pre-processed by eliminating the background noi
 * Non-maximum suppression is applied to remove the possibility of a false response. 
 * Double thresholding is done to detect or determine the possible edges. 
 * Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.<br />
-![](Analysis/fe.png)<br />
+<br />![](Analysis/fe.png)<br />
 The above figure shows pre-processed image with extracted features which is sent to the model for classification.
 ## Proposed Flow
 
