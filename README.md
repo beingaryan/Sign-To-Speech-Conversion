@@ -40,7 +40,7 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 ## SETUP
 * Fork the repository at your profile
 * Git Clone the repository to your local machine. 
-* ```pip install - r requirements.txt```
+* Fire the command: ```pip install - r requirements.txt```
 * Download the dataset from the mentioned [LINK](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing).
 * Load the Dataset and the Training file from [Train_File](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb).
 * Predict Real-Time Sentences using [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
