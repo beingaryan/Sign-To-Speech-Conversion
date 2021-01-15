@@ -53,7 +53,7 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
 * The above figure shows the Loss plot of the model throughout it's training journey. 
 * It can be interpreted that the loss decreases with increasing epochs.
-<br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br />
+<br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
 * The above figure shows the Accuracy plot of the model throughout it's training journey. 
 * It can be interpreted that the accuracy incraeses with increasing epochs for both train and val sets.
 <br /><br /><br />
