@@ -23,7 +23,7 @@
 Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __'research gap'__ and to contribute to recognize __'American sign languages(ASL)'__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __'26 alphabets'__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __'99.88%'__ on the test set.
 
 
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/asl.jpg" width="700" height="400"></p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/WOW.jpg" width="700" height="400"></p>
 
 ## :warning: TechStack/framework used
 
@@ -111,29 +111,38 @@ $ python3 jupyter
 Feel free to mail me for any doubts/query 
 :email: aryan.gupta18@vit.edu
 
-## Output Snapshots
-![](Analysis/WOW.jpg)<br />
-The above figure shows correctly classified word: "WOW"<br /> 
-![](Analysis/I%20SEE%20IT.png)<br />
-The above figure shows correctly classified word: "I SEE IT" 
-![](Analysis/HI%20HOW%20ARE%20YOU.jpg)<br />
-The above figure shows correctly classified word: "HI HOW ARE YOU" 
-<br />
-## References
-The above work is inspired by several recent researches in the field of Deep Learning. Some notable shoutout goes to:<br />
+
+
+## :handshake: Contribution
+Feel free to **file a new issue** with a respective title and description on the the [Sign-Language-Detection](https://github.com/beingaryan/Sign-To-Speech-Conversion/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+
+
+## :heart: Owner
+Made with :heart:&nbsp;  by [Aryan Gupta](https://github.com/beingaryan)
+
+
+## :+1: Credits
+* [https://www.pyimagesearch.com/](https://www.pyimagesearch.com/)
+* [https://opencv.org/](https://opencv.org/)
+* [Luv](https://github.com/luvk1412)
 * K. Manikandan, Ayush Patidar, Pallav Walia, Aneek Barman Roy.(2017). Hand Gesture Detection and Conversion to Speech and Text. ARXIV
 * Omkar Vedak, Prasad Zavre, Abhijeet Todkar, Manoj Patil.(2019). INTERNATIONAL RESEARCH JOURNAL OF ENGINEERING AND TECHNOLOGY (IRJET).Sign Language Interpreter using Image Processing and Machine Learning
 * Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
 
-## Doubt Support
-For further queries, you can reach out to me via:
-* [Linkedin](https://www.linkedin.com/in/aryan-gupta-6a9201191/) handle
-* [Instagram](https://www.instagram.com/beingryaan/)
-* Email-Id: aryan.gupta18@vit.edu
+## :handshake: Our Contributors
 
-## Contribution Norms
-* Feel free to come up with updates and modifications in the project.
-* Pull requests are welcomed.
+[CONTRIBUTORS.md](/CONTRIBUTORS.md)
+
+## :eyes: Code of Conduct
+
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
+
+## :eyes: License
+MIT © [Aryan Gupta](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/LICENSE)
+
+
+
 
 
 
