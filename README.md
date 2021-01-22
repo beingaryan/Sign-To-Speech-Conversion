@@ -107,7 +107,9 @@ $ python3 jupyter
 ![](Analysis/Heatmp.png)<br />
 * The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
 
-
+## :clap: And it's done!
+Feel free to mail me for any doubts/query 
+:email: aryan.gupta18@vit.edu
 
 ## Output Snapshots
 ![](Analysis/WOW.jpg)<br />
