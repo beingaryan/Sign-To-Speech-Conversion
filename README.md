@@ -43,12 +43,12 @@ The dataset used can be downloaded here - [Click to Download](https://drive.goog
 
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br>test_data_Distribution</p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 <p align="center">
   <b>Train Data Statistics</b></p>
 *	__Test Set: 4368 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_distribution.png" ></p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 <p align="center">
   <b>Test Data Statistics</b></p>
