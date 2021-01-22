@@ -83,36 +83,34 @@ $ python3 jupyter
 ```
 
 2. To train the model, open the following file in jupyter notebook and run the cells. 
-```
+</br>
 [ASL_train.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
-```
+</br>
 
 3. To detect ASL Gestures in real-time video streams run the folowing file:
-```
+</br>
 [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb)
-```
+</br>
 * NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
-
-## Results and Analysis
+## :key: Results and Analysis
+#### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
+<br /><br />![](Analysis/Classification_report.png)<br />
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
 * The model has achieved an accuracy of 97.45 % on Training Set with 99.88 % accuracy on the Validation set.
 * The prescribed model has been evaluated on Test set where it has attained an accuracy of 99.85% with loss of 0.60 %.
+#### We got the following accuracy/loss training curve plot
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
-* The above figure shows the Loss plot of the model throughout it's training journey. 
-* It can be interpreted that the loss decreases with increasing epochs.
+* The above figure shows the __'Loss plot'__ of the model throughout it's training journey. 
+
 <br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
-* The above figure shows the Accuracy plot of the model throughout it's training journey. 
-* It can be interpreted that the accuracy incraeses with increasing epochs for both train and val sets.
+* The above figure shows the __'Accuracy plot'__ of the model throughout it's training journey. 
+
 <br /><br /><br />
 * The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
-* The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
+* The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
 
 
-* The model has been evaluated for Precision, Recall, F1-score metrics for all the 26 classes along with a null class. 
-<br /><br />![](Analysis/Classification_report.png)<br />
-* The analysis carried has been shown in the classification report attached above. 
-* It can be interpreted that the average weighted F1-score metrics is 1 which describes effective learning and low false predictions.
 
 ## Output Snapshots
 ![](Analysis/WOW.jpg)<br />
