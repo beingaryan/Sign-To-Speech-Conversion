@@ -19,14 +19,18 @@
 ## :point_down: Support me here!
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+## :innocent: Motivation
+Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __'research gap'__ and to contribute to recognize __'American sign languages(ASL)'__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __'26 alphabets'__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __'99.88%'__ on the test set.
 
-Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the research gap and to contribute to recognize American sign languages(ASL) with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of 26 alphabets and one extra alphabet for null character. The proposed work has achieved an efficiency of 99.88% on the test set.
+
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/WOW.jpg" width="700" height="400"></p>
+
 
 ## Data Distribution
-A total of 17113 images have been included in the field of study. 
-* There are around 600 images per alphabet. 
-* A total of 12845 images were considered for the training set. Out of these, 0.3% of the images were used for validation. 
-* A total of 4368 images were used in the testing phase to evaluate the accuracy of the model.
+A total of __'17113 images'__ have been included in the field of study. 
+* There are around __'600 images'__ per alphabet. 
+* A total of __'12845 images'__ were considered for the __'training set'__. Out of these, 0.3% of the images were used for validation. 
+* A total of __'4368 images'__ were used in the testing phase to evaluate the accuracy of the model.
 <br />
 <br />
 
