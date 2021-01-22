@@ -36,11 +36,11 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
 
 This dataset consists of __17113 images__ belonging to 27 classes:
-*	__Training Set: 12845 images__
-![](Analysis/train_data_distribution.png)<br />
+*	__Training Set: 12845 images__<br />
+<br />![](Analysis/train_data_distribution.png)<br />
 The figure above shows the training data distribution.<br />
-*	__Test Set: 4368 images__
-![](Analysis/train_data_distribution.png)<br />
+*	__Test Set: 4368 images__<br />
+<br />![](Analysis/train_data_distribution.png)<br />
 The figure above shows the training data distribution.<br />
 <br />
 
