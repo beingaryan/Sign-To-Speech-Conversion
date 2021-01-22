@@ -34,7 +34,7 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 
 ## :file_folder: Data Distribution
 The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
-[ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
+
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
 <br />![](Analysis/train_data_distribution.png)<br />
@@ -82,8 +82,8 @@ $ pip3 install -r requirements.txt
 $ python3 jupyter
 ```
 </br>
-2. To train the model, open the following file in jupyter notebook and run the cells. 
-</br>
+2. To train the model, open the following file in jupyter notebook and run the cells </br>[ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) 
+
 [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
 </br>
 
