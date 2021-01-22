@@ -46,15 +46,12 @@ This dataset consists of __17113 images__ belonging to 27 classes:
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 <p align="center">
-The figure above shows the training data statistics.</p></br>
+  <b>Train Data Statistics</b></p>
 *	__Test Set: 4368 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
 <p align="center">
-The figure above shows the test data statistics.</p>
-<!---The figure above shows the test data statistics.---><br />
-<br />
-
+  <b>Test Data Statistics</b></p>
 
 ## :star: Features
 Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __'predicted alphabets'__ are converted to form __'words'__ and hence forms __'sentences'__. These sentences are converted into __'voice modules'__ by incorporating __'Google Text to Speech'__(gTTS API).</br></br>
@@ -124,7 +121,7 @@ $ python3 jupyter
 #### The above figure shows the Accuracy plot of the model throughout it's training journey. 
 
 ## 📈 Analysis
-</br>
+
 The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 #### The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
