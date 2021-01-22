@@ -46,7 +46,7 @@ The figure above shows the test data distribution.<br />
 
 
 ## :star: Features
-Our model is capable of bridging communication gap between differently abled section with rest of the world. It does so by predicting gestures from American sign language in real-time with high efficiency. These predicted alphabets are converted to form words and hence forms sentences. These sentences are converted into voice modules by incorporating Google Text to Speech(gTTS API).
+Our model is capable of bridging communication gap between differently abled section with rest of the world. It does so by predicting gestures from American sign language in real-time with high efficiency. These predicted alphabets are converted to form words and hence forms sentences. These sentences are converted into voice modules by incorporating Google Text to Speech(gTTS API).</br>
 The model is efficient, since we used a compact CNN-based architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the Deaf and Dumb people with rest of the world.
 
 ## 🎨 Feature Extraction
@@ -101,20 +101,19 @@ $ python3 jupyter
 #### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
 <br /><br />![](Analysis/Classification_report.png)<br />
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
-* The model has achieved an accuracy of 97.45 % on Training Set with 99.88 % accuracy on the Validation set.
-* The prescribed model has been evaluated on Test set where it has attained an accuracy of 99.85% with loss of 0.60 %.
+* The model has achieved an accuracy of __'97.45 %'__ on Training Set with __'99.88 %'__ accuracy on the Validation set.
+* The prescribed model has been evaluated on __'Test set'__ where it has attained an accuracy of __'99.85%'__ with loss of 0.60 %.
 #### We got the following accuracy/loss training curve plot
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
-* The above figure shows the __'Loss plot'__ of the model throughout it's training journey. 
+The above figure shows the __'Loss plot'__ of the model throughout it's training journey. 
 
 <br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
-* The above figure shows the __'Accuracy plot'__ of the model throughout it's training journey. 
+The above figure shows the __'Accuracy plot'__ of the model throughout it's training journey. 
 
-<br />
 ## 📈 Analysis
-* The training phase data has been evaluated on the Heatmap Plotting representation. 
+The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
-* The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
+The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
