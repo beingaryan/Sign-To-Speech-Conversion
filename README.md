@@ -77,14 +77,14 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: Working
 
-1. Open terminal. Go into the cloned project directory and type the following command:
+* Open terminal. Go into the cloned project directory and type the following command:
 ```
 $ python3 jupyter
 ```
 </br>
-2. To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
+* To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
 
-3. To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+* To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 </br>
 </br>
 * NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
