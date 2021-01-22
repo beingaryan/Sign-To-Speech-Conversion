@@ -25,6 +25,13 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/asl.jpg" width="700" height="400"></p>
 
+## :warning: TechStack/framework used
+
+- [OpenCV](https://opencv.org/)
+- [Keras](https://keras.io/)
+- [TensorFlow](https://www.tensorflow.org/)
+
+
 
 ## Data Distribution
 A total of __'17113 images'__ have been included in the field of study. 
