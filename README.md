@@ -44,7 +44,12 @@ The figure above shows the training data distribution.<br />
 The figure above shows the test data distribution.<br />
 <br />
 
-## Feature Extraction
+
+## :star: Features
+Our model is capable of bridging communication gap between differently abled section with rest of the world. It does so by predicting gestures from American sign language in real-time with high efficiency. These predicted alphabets are converted to form words and hence forms sentences. These sentences are converted into voice modules by incorporating Google Text to Speech(gTTS API).
+The model is efficient, since we used a compact CNN-based architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the Deaf and Dumb people with rest of the world.
+
+## 🎨 Feature Extraction
 * A Gaussian filter is applied to make the image smooth and  remove the noise.
 * Intensity gradients of the image are calculated.
 * Non-maximum suppression is applied to remove the possibility of a false response. 
@@ -52,12 +57,15 @@ The figure above shows the test data distribution.<br />
 * Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.<br />
 <br />![](Analysis/fe.png)<br />
 The above figure shows pre-processed image with extracted features which is sent to the model for classification.
-## Proposed Flow
 
+## 🚧 Proposed Flow
 ![](Analysis/Proposed%20Flow.png)<br />
 The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
 
 
+## :key: Prerequisites
+
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/requirements.txt)
 
 ## 🚀&nbsp; Installation
 1. Clone the repo
@@ -89,7 +97,7 @@ $ python3 jupyter
 * __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 </br></br>
-## :key: Results and Analysis
+## :key: Results 
 #### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
 <br /><br />![](Analysis/Classification_report.png)<br />
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
@@ -102,7 +110,8 @@ $ python3 jupyter
 <br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
 * The above figure shows the __'Accuracy plot'__ of the model throughout it's training journey. 
 
-<br /><br /><br />
+<br />
+## 📈 Analysis
 * The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 * The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
