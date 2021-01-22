@@ -1,5 +1,5 @@
 Thanks goes to these wonderful people  
-## :eyes
+## :eyes: 
 [emoji key](https://allcontributors.org/docs/en/emoji-key):
 <table>
   <tr>
