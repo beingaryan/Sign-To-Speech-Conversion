@@ -81,12 +81,11 @@ $ pip3 install -r requirements.txt
 ```
 $ python3 jupyter
 ```
-</br>
+
 * To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
 
 * To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
-</br>
-</br>
+
 * __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 </br></br>
