@@ -20,6 +20,12 @@
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## :innocent: Motivation
+A language interpreter is used by deaf people to seek help for translating their thoughts to normal people. There’s a need for a system to automatically recognize the sign language gestures, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions. Ordinary people are not able to decode such gestures. </br></br>
+Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into a speech that can be understood by normal people. 
+
+
+
+
 Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __'research gap'__ and to contribute to recognize __'American sign languages(ASL)'__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __'26 alphabets'__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __'99.88%'__ on the test set.
 
 
@@ -38,15 +44,15 @@ The dataset used can be downloaded here - [Click to Download](https://drive.goog
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
 <br />![](Analysis/train_data_distribution.png)<br />
-The figure above shows the training data distribution.<br />
+The figure above shows the training data statistics.<br />
 *	__Test Set: 4368 images__<br />
 <br />![](Analysis/train_data_distribution.png)<br />
-The figure above shows the test data distribution.<br />
+The figure above shows the test data statistics.<br />
 <br />
 
 
 ## :star: Features
-Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __'predicted alphabets'__ are converted to form __'words'__ and hence forms __'sentences'__. These sentences are converted into __'voice modules'__ by incorporating __'Google Text to Speech'__(gTTS API).</br>
+Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __'predicted alphabets'__ are converted to form __'words'__ and hence forms __'sentences'__. These sentences are converted into __'voice modules'__ by incorporating __'Google Text to Speech'__(gTTS API).</br></br>
 The model is efficient, since we used a compact __'CNN-based architecture'__, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the __'Deaf and Dumb people with rest of the world'__.
 
 ## 🎨 Feature Extraction
@@ -58,7 +64,7 @@ The model is efficient, since we used a compact __'CNN-based architecture'__, it
 <br />![](Analysis/fe.png)<br />
 The above figure shows pre-processed image with extracted features which is sent to the model for classification.
 
-## 🚧 Proposed Flow
+## 🎯 Proposed Flow
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/Proposed%20Flow.png" width="700" height="400"></p>
 <!---![](Analysis/Proposed%20Flow.png)<br />--->
 The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
@@ -133,7 +139,6 @@ Made with :heart:&nbsp;  by [Aryan Gupta](https://github.com/beingaryan)
 ## :+1: Credits
 * [https://www.pyimagesearch.com/](https://www.pyimagesearch.com/)
 * [https://opencv.org/](https://opencv.org/)
-* [Luv](https://github.com/luvk1412)
 * K. Manikandan, Ayush Patidar, Pallav Walia, Aneek Barman Roy.(2017). Hand Gesture Detection and Conversion to Speech and Text. ARXIV
 * Omkar Vedak, Prasad Zavre, Abhijeet Todkar, Manoj Patil.(2019). INTERNATIONAL RESEARCH JOURNAL OF ENGINEERING AND TECHNOLOGY (IRJET).Sign Language Interpreter using Image Processing and Machine Learning
 * Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
