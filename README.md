@@ -20,13 +20,13 @@
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## :innocent: Motivation
-A language interpreter is used by deaf people to seek help for translating their thoughts to normal people. There’s a need for a system to automatically recognize the sign language gestures, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions. Ordinary people are not able to decode such gestures. </br></br>
-Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into a speech that can be understood by normal people. 
+A language interpreter is used by deaf people to seek help for __translating__ their thoughts to normal people. There’s a need for a system to __automatically recognize the sign language gestures__, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions.  people are not able to decode such gestures. </br></br>
+Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
 
 
 
 
-Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __'research gap'__ and to contribute to recognize __'American sign languages(ASL)'__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __'26 alphabets'__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __'99.88%'__ on the test set.
+<!---Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __research gap__ and to contribute to recognize __American sign languages(ASL)__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ on the test set.--->
 
 
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/WOW.jpg" width="700" height="400"></p>
@@ -92,14 +92,14 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: Working
 
-* Open terminal. Go into the cloned project directory and type the following command:
+1. Open terminal. Go into the cloned project directory and type the following command:
 ```
 $ python3 jupyter
 ```
 
-* To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
+2. To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
 
-* To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+3. To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 * __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
@@ -112,15 +112,15 @@ $ python3 jupyter
 * The prescribed model has been evaluated on __'Test set'__ where it has attained an accuracy of __'99.85%'__ with loss of 0.60 %.
 #### We got the following accuracy/loss training curve plot
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
-The above figure shows the __'Loss plot'__ of the model throughout it's training journey. 
+#### The above figure shows the Loss plot of the model throughout it's training journey. 
 
 <br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
-The above figure shows the __'Accuracy plot'__ of the model throughout it's training journey. 
+#### The above figure shows the Accuracy plot of the model throughout it's training journey. 
 
 ## 📈 Analysis
 The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
-The prescribed inference suggests that the trained classes are __'highly correlated'__ with the same class of the data. 
+#### The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
