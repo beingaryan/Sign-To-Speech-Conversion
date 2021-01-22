@@ -32,22 +32,22 @@ Unable to communicate verbally is a disability. In order to communicate there ar
 - [TensorFlow](https://www.tensorflow.org/)
 
 
+## :file_folder: Data Distribution
+The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
 
-## Data Distribution
-A total of __'17113 images'__ have been included in the field of study. 
-* There are around __'600 images'__ per alphabet. 
-* A total of __'12845 images'__ were considered for the __'training set'__. Out of these, 0.3% of the images were used for validation. 
-* A total of __'4368 images'__ were used in the testing phase to evaluate the accuracy of the model.
-<br />
-<br />
-
+This dataset consists of __17113 images__ belonging to 27 classes:
+*	__Training Set: 12845 images__
 ![](Analysis/train_data_distribution.png)<br />
 The figure above shows the training data distribution.<br />
-![](Analysis/test_data_Distribution.png)<br />
-The figure above shows the testing data distribution.<br />
+*	__Test Set: 4368 images__
+![](Analysis/train_data_distribution.png)<br />
+The figure above shows the training data distribution.<br />
+<br />
 
-The dataset used in this field of study can be downloaded from:<br />
-https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing
+
+
+
+
 
 ## Data-Preprocessing
 The images from the dataset were pre-processed by eliminating the background noise. Several crucial preprocessing steps are listed below:
