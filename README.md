@@ -41,20 +41,8 @@ This dataset consists of __17113 images__ belonging to 27 classes:
 The figure above shows the training data distribution.<br />
 *	__Test Set: 4368 images__<br />
 <br />![](Analysis/train_data_distribution.png)<br />
-The figure above shows the training data distribution.<br />
+The figure above shows the test data distribution.<br />
 <br />
-
-
-
-
-
-
-## Data-Preprocessing
-The images from the dataset were pre-processed by eliminating the background noise. Several crucial preprocessing steps are listed below:
-* Gaussian Blur: Gaussian filter is used to blur the given image, reduce noise and smoothen the images. 
-* Grayscale Conversion: A grayscale image has equal intensities in RGB space. It becomes easier to differentiate such images from any other sort of colour image as the number of color channels are reduced.
-* Canny Edge Detector:  A multistage algorithm used to detect a wide range of edges in images. 
-* Normalization: Input stream of pixel values(0-255) in the data is converted to a scale of 0 to 1 by broadcasting a division by 255. It makes the system to better understand and gives almost an equal importance to each of the pixel values. 
 
 ## Feature Extraction
 * A Gaussian filter is applied to make the image smooth and  remove the noise.
