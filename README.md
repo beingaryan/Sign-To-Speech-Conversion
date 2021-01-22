@@ -57,13 +57,40 @@ The above figure shows pre-processed image with extracted features which is sent
 ![](Analysis/Proposed%20Flow.png)<br />
 The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
 
-## SETUP
-* Fork the repository at your profile
-* Git Clone the repository to your local machine. 
-* Fire the command: ```pip install - r requirements.txt```
-* Download the dataset from the mentioned [LINK](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing).
-* Load the Dataset and the Training file from [Train_File](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb).
-* Predict Real-Time Sentences using [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+
+
+## 🚀&nbsp; Installation
+1. Clone the repo
+```
+$ git clone https://github.com/beingaryan/Sign-To-Speech-Conversion.git
+```
+
+2. Change your directory to the cloned repo and create a Python virtual environment named 'test'
+```
+$ mkvirtualenv test
+```
+
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+```
+$ pip3 install -r requirements.txt
+```
+
+## :bulb: Working
+
+1. Open terminal. Go into the cloned project directory and type the following command:
+```
+$ python3 jupyter
+```
+
+2. To train the model, open the following file in jupyter notebook and run the cells. 
+```
+[ASL_train.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb)
+```
+
+3. To detect ASL Gestures in real-time video streams run the folowing file:
+```
+[ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb)
+```
 * NOTE: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
 
 ## Results and Analysis
