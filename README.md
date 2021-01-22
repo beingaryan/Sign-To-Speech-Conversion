@@ -45,11 +45,14 @@ This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
-The figure above shows the training data statistics.
+<p align="center">
+The figure above shows the training data statistics.</p></br>
 *	__Test Set: 4368 images__<br />
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
-The figure above shows the test data statistics.<br />
+<p align="center">
+The figure above shows the test data statistics.</p>
+<!---The figure above shows the test data statistics.---><br />
 <br />
 
 
@@ -67,6 +70,7 @@ The model is efficient, since we used a compact __'CNN-based architecture'__, it
 The above figure shows pre-processed image with extracted features which is sent to the model for classification.
 
 ## 🎯 Proposed Flow
+</br>
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/Proposed%20Flow.png" width="700" height="400"></p>
 <!---![](Analysis/Proposed%20Flow.png)<br />--->
 The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
