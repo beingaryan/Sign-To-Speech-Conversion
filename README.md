@@ -43,19 +43,17 @@ The dataset used can be downloaded here - [Click to Download](https://drive.goog
 
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br>test_data_Distribution</p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br><b>Train Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
-<p align="center">
-  <b>Train Data Statistics</b></p>
+
 *	__Test Set: 4368 images__<br />
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></p>
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></br><b>Test Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
-<p align="center">
-  <b>Test Data Statistics</b></p>
+
 
 ## :star: Features
-Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __'predicted alphabets'__ are converted to form __'words'__ and hence forms __'sentences'__. These sentences are converted into __'voice modules'__ by incorporating __'Google Text to Speech'__(gTTS API).</br></br>
-The model is efficient, since we used a compact __'CNN-based architecture'__, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the __'Deaf and Dumb people with rest of the world'__.
+Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __predicted alphabets__ are converted to form __words__ and hence forms __sentences__. These sentences are converted into __voice modules__ by incorporating __Google Text to Speech__(gTTS API).</br></br>
+The model is efficient, since we used a compact __CNN-based architecture__, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the __Deaf and Dumb people with rest of the world__.
 
 ## 🎨 Feature Extraction
 * A Gaussian filter is applied to make the image smooth and  remove the noise.
@@ -122,7 +120,7 @@ $ python3 jupyter
 
 ## 📈 Analysis
 
-The training phase data has been evaluated on the Heatmap Plotting representation. 
+#### The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 #### The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
 
