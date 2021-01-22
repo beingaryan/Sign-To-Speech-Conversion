@@ -20,7 +20,6 @@
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </br>
 ## :innocent: Motivation
-</br>
 A language interpreter is used by deaf people to seek help for __translating__ their thoughts to normal people. There’s a need for a system to __automatically recognize the sign language gestures__, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions.  people are not able to decode such gestures. </br></br>
 Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
 
@@ -46,9 +45,10 @@ This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
-The figure above shows the training data statistics.<br />
+The figure above shows the training data statistics.
 *	__Test Set: 4368 images__<br />
-<br />![](Analysis/train_data_distribution.png)<br />
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
+<!---<br />![](Analysis/train_data_distribution.png)<br />--->
 The figure above shows the test data statistics.<br />
 <br />
 
