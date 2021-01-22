@@ -1,5 +1,4 @@
-Thanks goes to these wonderful people  
-## :eyes: 
+Thanks goes to these wonderful people :research: 
 [emoji key](https://allcontributors.org/docs/en/emoji-key):
 <table>
   <tr>
