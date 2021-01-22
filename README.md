@@ -18,8 +18,9 @@
 
 ## :point_down: Support me here!
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
+</br>
 ## :innocent: Motivation
+</br>
 A language interpreter is used by deaf people to seek help for __translating__ their thoughts to normal people. There’s a need for a system to __automatically recognize the sign language gestures__, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions.  people are not able to decode such gestures. </br></br>
 Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
 
@@ -43,7 +44,8 @@ The dataset used can be downloaded here - [Click to Download](https://drive.goog
 
 This dataset consists of __17113 images__ belonging to 27 classes:
 *	__Training Set: 12845 images__<br />
-<br />![](Analysis/train_data_distribution.png)<br />
+<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></p>
+<!---<br />![](Analysis/train_data_distribution.png)<br />--->
 The figure above shows the training data statistics.<br />
 *	__Test Set: 4368 images__<br />
 <br />![](Analysis/train_data_distribution.png)<br />
@@ -108,8 +110,8 @@ $ python3 jupyter
 #### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
 <br /><br />![](Analysis/Classification_report.png)<br />
 * The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
-* The model has achieved an accuracy of __'97.45 %'__ on Training Set with __'99.88 %'__ accuracy on the Validation set.
-* The prescribed model has been evaluated on __'Test set'__ where it has attained an accuracy of __'99.85%'__ with loss of 0.60 %.
+* The model has achieved an accuracy of __97.45 %__ on Training Set with __99.88 %__ accuracy on the Validation set.
+* The prescribed model has been evaluated on __Test set__ where it has attained an accuracy of __99.85%__ with loss of 0.60 %.
 #### We got the following accuracy/loss training curve plot
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
 #### The above figure shows the Loss plot of the model throughout it's training journey. 
@@ -118,6 +120,7 @@ $ python3 jupyter
 #### The above figure shows the Accuracy plot of the model throughout it's training journey. 
 
 ## 📈 Analysis
+</br>
 The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
 #### The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
