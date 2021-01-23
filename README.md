@@ -76,17 +76,19 @@ The figure above shows a detailed pipeline of the model architecture. It can be 
 All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/requirements.txt)
 
 ## 🚀&nbsp; Installation
-1. Clone the repo
+1. Start and fork the repository.
+
+2. Clone the repo
 ```
 $ git clone https://github.com/beingaryan/Sign-To-Speech-Conversion.git
 ```
 
-2. Change your directory to the cloned repo and create a Python virtual environment named 'test'
+3. Change your directory to the cloned repo and create a Python virtual environment named 'test'
 ```
 $ mkvirtualenv test
 ```
 
-3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+4. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 ```
 $ pip3 install -r requirements.txt
 ```
