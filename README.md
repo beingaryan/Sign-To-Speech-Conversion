@@ -163,10 +163,10 @@ Thanks goes to these wonderful people ✨✨
                           <td align="center"><a href="https://github.com/ShreyasKhare-157"><img src="https://avatars.githubusercontent.com/u/72130050?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Shreyas Khare
 </b></sub></a><br />
               
-            
+         <br/><br/>   
 
 
-[CONTRIBUTORS.md](/CONTRIBUTORS.md)
+<!---[CONTRIBUTORS.md](/CONTRIBUTORS.md)--->
 
 ## :eyes: Code of Conduct
 
