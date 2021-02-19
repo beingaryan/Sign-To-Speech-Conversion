@@ -20,8 +20,8 @@
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </br>
 ## :innocent: Motivation
-A language interpreter is used by deaf people to seek help for __translating__ their thoughts to normal people. There’s a need for a system to __automatically recognize the sign language gestures__, which will lead to the minimization of the gap between deaf people and ordinary people in the society. Communication in sign language involves body movements, especially of hand, arms and some facial expressions.  people are not able to decode such gestures. </br></br>
-Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
+A language translator is extensively utilized by the mute people for converting and giving shape to their thoughts. A system is in urgent need of __recognizing and translating sign language__.  </br></br>
+Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The entire model pipeline is developed by CNN architecture for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
 
 
 
@@ -56,11 +56,10 @@ Our model is capable of predicting gestures from American sign language in real-
 The model is efficient, since we used a compact __CNN-based architecture__, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the __Deaf and Dumb people with rest of the world__.
 
 ## 🎨 Feature Extraction
-* A Gaussian filter is applied to make the image smooth and  remove the noise.
-* Intensity gradients of the image are calculated.
-* Non-maximum suppression is applied to remove the possibility of a false response. 
-* Double thresholding is done to detect or determine the possible edges. 
-* Edges are finalized by identifying and removing all other edges that are weak and not linked to strong edges.<br />
+* Gaussian filter is used as a pre-processing technique to make the image smooth and eliminate all the irrelevat noise.
+* Intensity is analyzed and Non-Maximum suppression is implemented to remove false edges.
+* For a better pre-processed image data, double thresholding is implemented to consider only the strong edges in the images.
+* All the weak edges are finally remved and only the strong edges are consdered for the further phases. <br />
 <br />![](Analysis/fe.png)<br />
 The above figure shows pre-processed image with extracted features which is sent to the model for classification.
 
@@ -110,8 +109,9 @@ $ python3 jupyter
 ## :key: Results 
 #### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
 <br /><br />![](Analysis/Classification_report.png)<br />
-* The model has been trained on a python based environment on Jupyter platform for 20 epochs. 
-* The model has achieved an accuracy of __97.45 %__ on Training Set with __99.88 %__ accuracy on the Validation set.
+* The model has been trained on a python based environment on Jupyter platform.
+* The model is iterated for a total epoch of 20. 
+* The model has attained an accuracy of __99.88 %__ accuracy on the Validation set.
 * The prescribed model has been evaluated on __Test set__ where it has attained an accuracy of __99.85%__ with loss of 0.60 %.
 #### We got the following accuracy/loss training curve plot
 ![](Analysis/Loss%20vs%20Epoch.png)<br />
@@ -124,7 +124,7 @@ $ python3 jupyter
 
 #### The training phase data has been evaluated on the Heatmap Plotting representation. 
 ![](Analysis/Heatmp.png)<br />
-#### The prescribed inference suggests that the trained classes are highly correlated with the same class of the data. 
+#### The prescribed analysis aims that each class is most correlated with that traned class.
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
@@ -143,8 +143,8 @@ Made with :heart:&nbsp;  by [Aryan Gupta](https://github.com/beingaryan)
 ## :+1: Credits
 * [https://www.pyimagesearch.com/](https://www.pyimagesearch.com/)
 * [https://opencv.org/](https://opencv.org/)
-* K. Manikandan, Ayush Patidar, Pallav Walia, Aneek Barman Roy.(2017). Hand Gesture Detection and Conversion to Speech and Text. ARXIV
-* Omkar Vedak, Prasad Zavre, Abhijeet Todkar, Manoj Patil.(2019). INTERNATIONAL RESEARCH JOURNAL OF ENGINEERING AND TECHNOLOGY (IRJET).Sign Language Interpreter using Image Processing and Machine Learning
+* Efthimiou, Eleni & Fotinea, Stavroula-Evita & Vogler, Christian & Hanke, Thomas & Glauert, John & Bowden, Richard & Braffort, Annelies & Collet, Christophe & Maragos, Petros & Segouat, Jérémie. (2009). 
+* Sign Language Recognition, Generation, and Modelling: A Research Effort with Applications in Deaf Communication. 21-30. 10.1007/978-3-642-02707-9_3. 
 * Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
 
 ## :handshake: Our Contributors
